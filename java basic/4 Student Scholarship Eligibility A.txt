@@ -1,0 +1,16 @@
+4 Student Scholarship Eligibility Amount
+import java.util.Scanner;
+public class ScholarshipFee {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double tuition = sc.nextDouble();
+        double scholarship = sc.nextDouble();
+        double examFee = sc.nextDouble();
+        double libraryFee = sc.nextDouble();
+
+        double discounted = tuition - (tuition * scholarship / 100);
+        double finalFee = discounted + examFee + libraryFee;
+
+        System.out.println("Final Payable Fee = " + finalFee);
+    }
+}
