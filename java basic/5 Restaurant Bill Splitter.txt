@@ -1,0 +1,17 @@
+5 Restaurant Bill Splitter
+import java.util.Scanner;
+public class RestaurantBill {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double totalBill = sc.nextDouble();
+        double service = sc.nextDouble();
+        double gst = sc.nextDouble();
+        int people = sc.nextInt();
+
+        double billWithService = totalBill + (totalBill * service / 100);
+        double billWithGST = billWithService + (billWithService * gst / 100);
+        double perPerson = billWithGST / people;
+
+        System.out.println("Amount Per Person = " + perPerson);
+    }
+}
