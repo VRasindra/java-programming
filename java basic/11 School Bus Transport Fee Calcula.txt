@@ -1,0 +1,16 @@
+11 School Bus Transport Fee Calculator
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int distance = sc.nextInt();
+        int rate = sc.nextInt();
+        int maintenance = sc.nextInt();
+        int allowance = sc.nextInt();
+        int subsidy = sc.nextInt();
+
+        int fee = (distance * rate) + maintenance + allowance - subsidy;
+
+        System.out.println("Total Transport Fee = " + fee);
+    }
