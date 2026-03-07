@@ -1,6 +1,5 @@
 12 Cinema Theatre Collection Report
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,9 +7,8 @@ public class Main {
         int snackRevenue = sc.nextInt();
         int maintenance = sc.nextInt();
         int electricity = sc.nextInt();
-
         int profit = ticketRevenue + snackRevenue - maintenance - electricity;
-
         System.out.println("Net Profit = " + profit);
     }
+
 }
