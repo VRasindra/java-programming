@@ -1,6 +1,5 @@
 13 Agriculture Farm Yield Calculator
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,9 +7,7 @@ public class Main {
         int acres = sc.nextInt();
         int extraYield = sc.nextInt();
         int damaged = sc.nextInt();
-
         int finalYield = (yieldPerAcre * acres) + extraYield - damaged;
-
         System.out.println("Marketable Yield = " + finalYield);
     }
 }
