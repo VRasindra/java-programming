@@ -6,10 +6,8 @@ public class GroceryRevenue {
         double sales = sc.nextDouble();
         double discount = sc.nextDouble();
         double gst = sc.nextDouble();
-
         double afterDiscount = sales - (sales * discount / 100);
         double finalRevenue = afterDiscount + (afterDiscount * gst / 100);
-
         System.out.println("Final Revenue = " + finalRevenue);
     }
 }
