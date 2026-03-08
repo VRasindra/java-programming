@@ -1,6 +1,5 @@
 16 Railway Ticket Revenue System
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,9 +10,7 @@ public class Main {
         int platform = sc.nextInt();
         int maintenance = sc.nextInt();
         int fuel = sc.nextInt();
-
         int revenue = (genPass * genFare) + (acPass * acFare) + platform - maintenance - fuel;
-
         System.out.println("Net Railway Revenue = " + revenue);
     }
 }
