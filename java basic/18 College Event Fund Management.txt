@@ -1,6 +1,5 @@
 18 College Event Fund Management
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,9 +9,7 @@ public class Main {
         int stage = sc.nextInt();
         int celebrity = sc.nextInt();
         int marketing = sc.nextInt();
-
         int remaining = registration + sponsorship + stall - stage - celebrity - marketing;
-
         System.out.println("Remaining Fund = " + remaining);
     }
 }
