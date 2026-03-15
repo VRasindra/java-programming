@@ -3,21 +3,16 @@
 // public class ScholarshipEligibilitySystem {
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
-
 //         double gpa = sc.nextDouble();
 //         double familyIncome = sc.nextDouble();
 //         int extracurricular = sc.nextInt();
 //         sc.nextLine();
 //         String scholarshipType = sc.nextLine();
-
 //         String eligibility = "Not Eligible";
 //         double awardAmount = 0;
 //         String awardCategory = "None";
-
 //         if (gpa >= 2.5) {
-
 //             if (scholarshipType.equalsIgnoreCase("Merit")) {
-
 //                 if (gpa >= 3.8 && extracurricular >= 80) {
 //                     eligibility = "Eligible";
 //                     awardAmount = 25000;
@@ -31,9 +26,7 @@
 //                     awardAmount = 8000;
 //                     awardCategory = "Minimal";
 //                 }
-
 //             } else if (scholarshipType.equalsIgnoreCase("Need-Based")) {
-
 //                 if (familyIncome <= 30000 && gpa >= 3.5) {
 //                     eligibility = "Eligible";
 //                     awardAmount = 30000;
@@ -47,9 +40,7 @@
 //                     awardAmount = 10000;
 //                     awardCategory = "Minimal";
 //                 }
-
 //             } else if (scholarshipType.equalsIgnoreCase("Sports")) {
-
 //                 if (extracurricular >= 85 && gpa >= 3.0) {
 //                     eligibility = "Eligible";
 //                     awardAmount = 22000;
@@ -65,7 +56,6 @@
 //                 }
 //             }
 //         }
-
 //         System.out.println("GPA: " + gpa);
 //         System.out.println("Family Income: $" + familyIncome);
 //         System.out.println("Extracurricular Score: " + extracurricular);
