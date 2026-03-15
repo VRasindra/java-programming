@@ -33,11 +33,9 @@
 //         if (customer.equals("Senior")) customerDiscount = 25;
 //         else if (customer.equals("Student")) customerDiscount = 15;
 //         else if (customer.equals("Child")) customerDiscount = 30;
-
 //         double baseWithExtras = basePrice + formatFee + seatFee;
 //         double adjusted = baseWithExtras * (1 + timeAdjust / 100.0);
 //         double finalPrice = adjusted * (1 - customerDiscount / 100.0);
-
 //         String voucher = (time.equals("Matinee") || !customer.equals("Adult")) ? "Yes" : "No";
 
 //         String category;
