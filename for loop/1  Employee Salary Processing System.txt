@@ -19,9 +19,7 @@ public class EmployeeSalaryProcessor {
             else if (rating == 3) incrementPercent = 5;
             else if (rating == 2) incrementPercent = 2;
             else incrementPercent = 0;
-
             double finalSalary = baseSalary * (1 + incrementPercent / 100);
-
             totalPayroll += finalSalary;
 
             System.out.println("Employee: " + name);
