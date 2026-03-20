@@ -1,0 +1,49 @@
+//5 Hotel Room Occupancy Tracker
+// import java.util.Scanner;
+// public class HotelOccupancyTracker {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int N = sc.nextInt();
+//         double totalRate = 0;
+//         double highestRate = 0;
+//         int peakDay = 0;
+//         int fullCount = 0;
+
+//         for (int i = 0; i < N; i++) {
+//             int day = sc.nextInt();
+//             int occupied = sc.nextInt();
+//             int totalRooms = sc.nextInt();
+
+//             double rate = ((double) occupied / totalRooms) * 100;
+//             totalRate += rate;
+
+//             if (rate > highestRate) {
+//                 highestRate = rate;
+//                 peakDay = day;
+//             }
+
+//             if (rate == 100.0) fullCount++;
+
+//             String status;
+//             if (rate < 60) status = "Low";
+//             else if (rate < 80) status = "Moderate";
+//             else if (rate < 100) status = "High";
+//             else status = "Full";
+
+//             System.out.println("Day: " + day);
+//             System.out.println("Rooms Occupied: " + occupied);
+//             System.out.println("Total Rooms: " + totalRooms);
+//             System.out.println("Occupancy Rate: " + rate + "%");
+//             System.out.println("Status: " + status);
+//             System.out.println();
+//         }
+
+//         double average = totalRate / N;
+
+//         System.out.println("Total Days Analyzed: " + N);
+//         System.out.println("Average Occupancy Rate: " + String.format("%.2f", average) + "%");
+//         System.out.println("Peak Occupancy Day: Day " + peakDay);
+//         System.out.println("Days at Full Capacity: " + fullCount);
+//     }
+// }
