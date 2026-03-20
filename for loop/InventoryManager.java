@@ -1,0 +1,48 @@
+//3 Inventory Stock Management System
+// import java.util.Scanner;
+// public class InventoryManager {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int N = sc.nextInt();
+//         int lowStock = 0;
+//         int critical = 0;
+//         int totalReorder = 0;
+
+//         for (int i = 0; i < N; i++) {
+//             String name = sc.next();
+//             int current = sc.nextInt();
+//             int minimum = sc.nextInt();
+
+//             String status;
+//             int reorder = 0;
+
+//             if (current >= minimum) {
+//                 status = "Adequate";
+//                 reorder = 0;
+//             } else if (current >= minimum / 2) {
+//                 status = "Low Stock";
+//                 reorder = (minimum - current) + (minimum / 2);
+//                 lowStock++;
+//             } else {
+//                 status = "Critical";
+//                 reorder = (minimum - current) + (int)(minimum * 1.5);
+//                 critical++;
+//             }
+
+//             totalReorder += reorder;
+
+//             System.out.println("Product: " + name);
+//             System.out.println("Current Stock: " + current);
+//             System.out.println("Minimum Stock: " + minimum);
+//             System.out.println("Status: " + status);
+//             System.out.println("Reorder Quantity: " + reorder);
+//             System.out.println();
+//         }
+
+//         System.out.println("Total Products: " + N);
+//         System.out.println("Low Stock Items: " + lowStock);
+//         System.out.println("Critical Items: " + critical);
+//         System.out.println("Total Reorder Quantity: " + totalReorder);
+//     }
+// }
