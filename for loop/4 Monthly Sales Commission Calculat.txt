@@ -1,6 +1,5 @@
 //4 Monthly Sales Commission Calculator
 import java.util.Scanner;
-
 public class SalesCommissionCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
