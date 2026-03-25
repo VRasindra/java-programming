@@ -8,7 +8,6 @@ public class StudentGradeAnalyzer {
         int highest = 0;
         int passCount = 0;
         int failCount = 0;
-
         for (int i = 0; i < N; i++) {
             String name = sc.next();
             int score = sc.nextInt();
