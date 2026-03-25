@@ -1,6 +1,5 @@
 //5 Hotel Room Occupancy Tracker
 import java.util.Scanner;
-
 public class HotelOccupancyTracker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
