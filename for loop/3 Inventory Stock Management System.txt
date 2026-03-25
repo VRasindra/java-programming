@@ -1,6 +1,5 @@
 //3 Inventory Stock Management System
 import java.util.Scanner;
-
 public class InventoryManager {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
