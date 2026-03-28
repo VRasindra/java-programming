@@ -26,7 +26,6 @@ public class StudentGradeAnalyzer {
 
             highest = Math.max(highest, score);
             totalScore += score;
-
             System.out.println("Student: " + name);
             System.out.println("Score: " + score);
             System.out.println("Letter Grade: " + grade);
