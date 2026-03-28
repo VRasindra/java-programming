@@ -3,7 +3,6 @@
 // public class HotelOccupancyTracker {
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
-
 //         int N = sc.nextInt();
 //         double totalRate = 0;
 //         double highestRate = 0;
