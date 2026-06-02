@@ -1,4 +1,4 @@
-jjjjj // 8: Student Attendance Matrix
+jjjj // 8: Student Attendance Matrix
 // import java.util.Scanner;
 // public class AttendanceMatrix {
 //     public static void main(String[] args) {
